@@ -1,0 +1,969 @@
+2020-01-26 18:32:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fav_mlist could not be found. (/Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Fav_mlist',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Http/BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/Natsumi/workspace/fav_music/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Users/Natsumi/workspace/fav_music/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /fav_mlist
+
+
+2020-01-31 13:26:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Branch could not be found. (/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Branch',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Users/Natsumi/github/branch/add_youtube_widget/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /branch/add_youtube_widget
+
+
+2020-01-31 13:26:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Branch could not be found. (/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Branch',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Users/Natsumi/github/branch/add_youtube_widget/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /branch/add_youtube_widget/
+
+
+2020-01-31 13:26:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Branch could not be found. (/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Branch',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Users/Natsumi/github/branch/add_youtube_widget/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /branch/add_youtube_widget/
+
+
+2020-01-31 14:04:47 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php line=856 in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 51]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 51
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:04:47 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 152]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 152
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 57
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:04:47 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:04:47 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:04:51 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php line=856 in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 51]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 51
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:04:51 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 152]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 152
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 57
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:04:51 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:04:51 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:05:21 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php line=856 in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 51]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 51
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:05:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 152]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 152
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 57
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:05:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:05:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:05:23 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php line=856 in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 51]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 51
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:05:23 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 152]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 152
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 57
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:05:23 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:05:23 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:05:57 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php line=856 in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 51]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 51
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:05:57 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 152]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 152
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 57
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:05:57 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:05:57 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:07:00 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php line=856 in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 51]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 51
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:07:00 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 152]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 152
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 57
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:07:00 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:07:00 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:07:40 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php line=856 in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 51]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 51
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:07:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 152]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 152
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 57
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:07:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:07:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:08:59 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php line=23 in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 51]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 51
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:08:59 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:23) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 152]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 152
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 57
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:08:59 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:23) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:08:59 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:23) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:13:55 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php line=856 in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 51]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 51
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:13:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 152]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 152
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 57
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:13:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:13:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Debugger.php:856) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:14:20 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php line=23 in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 51]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 51
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:14:20 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:23) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 152]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 152
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 57
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:14:20 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:23) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:14:20 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:23) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:15:25 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php line=24 in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 51]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 51
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:15:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:24) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 152]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 152
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 57
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:15:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:24) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:15:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:24) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:15:30 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php line=24 in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 51]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 51
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:15:30 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:24) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 152]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 152
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 57
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:15:30 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:24) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:15:30 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:24) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:15:36 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php line=24 in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 51]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 51
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:15:36 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:24) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 152]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 152
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 57
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:15:36 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:24) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:15:36 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:24) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:17:11 Warning: Warning (512): Unable to emit headers. Headers sent in file=/Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php line=24 in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 51]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 51
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:17:11 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:24) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 152]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 152
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 57
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:17:11 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:24) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:17:11 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /Users/Natsumi/github/branch/add_youtube_widget/src/Controller/FavMlistController.php:24) in [/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 181]
+Request URL: /fav-mlist
+Referer URL: http://localhost:8765/fav-mlist/view/7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 58
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 140
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2020-01-31 14:42:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Sasasasa could not be found. (/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Sasasasa',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Users/Natsumi/github/branch/add_youtube_widget/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /sasasasa
+Referer URL: http://localhost:8765/fav-mlist
+
+
+2020-01-31 14:48:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Sasasasa could not be found. (/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Sasasasa',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Users/Natsumi/github/branch/add_youtube_widget/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /sasasasa
+Referer URL: http://localhost:8765/fav-mlist
+
+
+2020-02-02 10:56:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Sasasasa could not be found. (/Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Sasasasa',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Users/Natsumi/github/branch/add_youtube_widget/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Users/Natsumi/github/branch/add_youtube_widget/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /sasasasa
+Referer URL: http://localhost:8765/fav-mlist
+
+

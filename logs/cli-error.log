@@ -1,0 +1,44 @@
+2020-01-26 18:29:32 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fav_music.favmlist' doesn't exist in /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 132
+Stack Trace:
+#0 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(98): Cake\Database\Schema\Collection->_reflect('Column', 'favmlist', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(62): Cake\Database\Schema\Collection->describe('favmlist', Array)
+#2 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/ORM/Table.php(559): Cake\Database\Schema\CachedCollection->describe('favmlist')
+#3 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/ORM/Table.php(684): Cake\ORM\Table->getSchema()
+#4 /Users/Natsumi/workspace/fav_music/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#5 /Users/Natsumi/workspace/fav_music/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Users/Natsumi/workspace/fav_music/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'favmlist', 'Favmlist')
+#7 /Users/Natsumi/workspace/fav_music/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Favmlist')
+#8 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Console/Shell.php(531): Bake\Shell\Task\ModelTask->main('favmlist')
+#9 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Console/Shell.php(524): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Console/CommandRunner.php(385): Cake\Console\Shell->runCommand(Array, true)
+#11 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#12 /Users/Natsumi/workspace/fav_music/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fav_music.favmlist' doesn't exist in /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 38
+Stack Trace:
+#0 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(38): PDOStatement->execute(NULL)
+#1 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Database/Connection.php(349): Cake\Database\Statement\MysqlStatement->execute()
+#2 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#3 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Database/Connection.php(352): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#4 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Database/Connection.php(301): Cake\Database\Connection->query('SHOW FULL COLUM...')
+#5 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#6 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Database/Connection.php(305): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#7 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(130): Cake\Database\Connection->execute('SHOW FULL COLUM...', Array)
+#8 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(98): Cake\Database\Schema\Collection->_reflect('Column', 'favmlist', Array, Object(Cake\Database\Schema\TableSchema))
+#9 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(62): Cake\Database\Schema\Collection->describe('favmlist', Array)
+#10 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/ORM/Table.php(559): Cake\Database\Schema\CachedCollection->describe('favmlist')
+#11 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/ORM/Table.php(684): Cake\ORM\Table->getSchema()
+#12 /Users/Natsumi/workspace/fav_music/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#13 /Users/Natsumi/workspace/fav_music/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#14 /Users/Natsumi/workspace/fav_music/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'favmlist', 'Favmlist')
+#15 /Users/Natsumi/workspace/fav_music/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Favmlist')
+#16 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Console/Shell.php(531): Bake\Shell\Task\ModelTask->main('favmlist')
+#17 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Console/Shell.php(524): Cake\Console\Shell->runCommand(Array, false, Array)
+#18 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Console/CommandRunner.php(385): Cake\Console\Shell->runCommand(Array, true)
+#19 /Users/Natsumi/workspace/fav_music/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#20 /Users/Natsumi/workspace/fav_music/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#21 {main}
+
+
