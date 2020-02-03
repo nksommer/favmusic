@@ -9,8 +9,8 @@
         <!-- <li class="heading"><?= __('Actions') ?></li> -->
         <li><?= $this->Html->link(__('Edit this Favorite'), ['action' => 'edit', $favMlist->id]) ?> </li>
         <li><?= $this->Form->postLink(__('Delete this Favorite'), ['action' => 'delete', $favMlist->id], ['confirm' => __('"{0}" を削除しますか？', $favMlist->title)]) ?> </li>
-        <li><?= $this->Html->link(__('Return My List'), ['action' => 'index']) ?> </li>
         <li><?= $this->Html->link(__('Add Favorite'), ['action' => 'add']) ?> </li>
+        <li><?= $this->Html->link(__('Return My List'), ['action' => 'index']) ?> </li>
     </ul>
 </nav>
 <div class="favMlist view large-9 medium-8 columns content">
@@ -21,23 +21,23 @@
             <td><?= h($favMlist->title) ?></td>
         </tr> -->
         <tr>
-            <th scope="row"><?= __('Player') ?></th>
+            <th scope="row" class="view-col"><?= __('Player') ?></th>
             <td><?= h($favMlist->player) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('Genre') ?></th>
+            <th scope="row" class="view-col"><?= __('Genre') ?></th>
             <td><?= h($favMlist->genre) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('Url') ?></th>
+            <th scope="row" class="view-col"><?= __('Url') ?></th>
             <td class="yt-widget"><?= $favMlist->url ?></td>
         </tr>
         <!-- <tr>
-            <th scope="row"><?= __('Image') ?></th>
+            <th scope="row" class="view-col"><?= __('Image') ?></th>
             <td><?= h($favMlist->image) ?></td>
         </tr> -->
         <tr>
-            <th scope="row"><?= __('Id') ?></th>
+            <th scope="row" class="view-col"><?= __('Id') ?></th>
             <td><?= $this->Number->format($favMlist->id) ?></td>
         </tr>
     </table>

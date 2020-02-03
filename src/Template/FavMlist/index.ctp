@@ -22,23 +22,23 @@
                 <th scope="col" class="index-col"><?= $this->Paginator->sort('genre') ?></th>
                 <th scope="col" class="index-col"><?= $this->Paginator->sort('url') ?></th>
                 <!-- <th scope="col" class="index-col"><?= $this->Paginator->sort('image') ?></th> -->
-                <th scope="col" class="actions index-col"><?= __('Actions') ?></th>
+                <th scope="col" class="actions index-col"><?= __('') ?></th>
             </tr>
         </thead>
         <tbody>
             <?php foreach ($favMlist as $index => $favMlist): ?>
             <tr>
-                <td><?= $this->Number->format($favMlist->id) ?></td>
-                <td><?= h($favMlist->title) ?></td>
-                <td><?= h($favMlist->player) ?></td>
-                <td><?= h($favMlist->genre) ?></td>
+                <td class="index-data"><?= $this->Number->format($favMlist->id) ?></td>
+                <td class="index-data"><?= h($favMlist->title) ?></td>
+                <td class="index-data"><?= h($favMlist->player) ?></td>
+                <td class="index-data"><?= h($favMlist->genre) ?></td>
                 <?php if($urlList[$index]!= "") {?>
                 <td class="url-contents"><a href="<?= $urlList[$index] ?>" target="blank"><?= $favMlist->url ?></a></td>
                 <?php }else{ ?>
-                <td class="url-contents"><p>-</p></td>
+                <td class="url-contents index-data">-</td>
                 <?php } ?>
                 <!-- <td><?= h($favMlist->image) ?></td> -->
-                <td class="actions">
+                <td class="actions index-data">
                     <div><?= $this->Html->link(__('View'), ['action' => 'view', $favMlist->id]) ?></div>
                     <div><?= $this->Html->link(__('Edit'), ['action' => 'edit', $favMlist->id]) ?></div>
                     <div><?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $favMlist->id], ['confirm' => __('"{0}" を削除しますか？', $favMlist->title)]) ?></div>

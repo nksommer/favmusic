@@ -150,7 +150,7 @@ class FavMlistController extends AppController
                 return false;
             }
             // 埋め込みコードを返す
-            return '<iframe width="600" height="338" src="https://www.youtube.com/embed/' . $video_id . '" frameborder="0" allowfullscreen></iframe>';
+            return '<iframe width="600" height="338" src="https://www.youtube.com/embed/' . $video_id . '?autoplay=1" frameborder="0" allowfullscreen></iframe>';
         }
         // パラメータが不正(youtubeのURLではない)ときは埋め込みコードを生成しない。
         return false;

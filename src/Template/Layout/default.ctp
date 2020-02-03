@@ -36,7 +36,7 @@ $cakeDescription = 'Favorite Music List';
     <nav class="top-bar expanded" data-topbar role="navigation">
         <ul class="title-area large-3 medium-4 columns">
             <li class="name">
-                <h1><a href="">Favorite Music List</a></h1>
+                <h1 class="contents-name">Favorite Music List</h1>
             </li>
         </ul>
         <div class="top-bar-section">

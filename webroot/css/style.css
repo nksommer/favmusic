@@ -527,11 +527,32 @@ table td {
     color: #ff0000;
 }
 
-.url-contents,
-.index-col {
+.url-contents {
     text-align: center;
+    vertical-align: middle;
 }
 
 .yt-widget {
     float: right;
+}
+
+.contents-name {
+    padding: 0 0.9375rem;
+    width: 75%;
+    color: #ffffff;
+}
+
+.index-col,
+.index-data {
+    font-size: medium;
+    word-break: normal;
+    vertical-align: middle;
+}
+
+.index-col {
+    text-transform: uppercase;
+}
+
+.index-data {
+    padding-left: 20px;
 }
