@@ -12,11 +12,11 @@
     </ul>
 </nav>
 <div class="favMlist index large-9 medium-8 columns content">
-    <h3>My List</h3>
+    <h2>My List</h2>
     <table cellpadding="0" cellspacing="0">
         <thead>
             <tr>
-                <th scope="col" class="index-col"><?= $this->Paginator->sort('id') ?></th>
+                <th scope="col" class="index-col"><?= $this->Paginator->sort('no.') ?></th>
                 <th scope="col" class="index-col"><?= $this->Paginator->sort('title') ?></th>
                 <th scope="col" class="index-col"><?= $this->Paginator->sort('player') ?></th>
                 <th scope="col" class="index-col"><?= $this->Paginator->sort('genre') ?></th>
@@ -26,16 +26,18 @@
             </tr>
         </thead>
         <tbody>
+            <?php $cnt=0 ?>
             <?php foreach ($favMlist as $index => $favMlist): ?>
+            <?php $cnt+=1 ?>
             <tr>
-                <td class="index-data"><?= $this->Number->format($favMlist->id) ?></td>
+                <td class="index-data"><?php echo $cnt ?></td>
                 <td class="index-data"><?= h($favMlist->title) ?></td>
                 <td class="index-data"><?= h($favMlist->player) ?></td>
                 <td class="index-data"><?= h($favMlist->genre) ?></td>
                 <?php if($urlList[$index]!= "") {?>
                 <td class="url-contents"><a href="<?= $urlList[$index] ?>" target="blank"><?= $favMlist->url ?></a></td>
                 <?php }else{ ?>
-                <td class="url-contents index-data">-</td>
+                <td class="url-contents">-</td>
                 <?php } ?>
                 <!-- <td><?= h($favMlist->image) ?></td> -->
                 <td class="actions index-data">

@@ -22,11 +22,11 @@
         </tr> -->
         <tr>
             <th scope="row" class="view-col"><?= __('Player') ?></th>
-            <td><?= h($favMlist->player) ?></td>
+            <td class="view-data"><?= h($favMlist->player) ?></td>
         </tr>
         <tr>
             <th scope="row" class="view-col"><?= __('Genre') ?></th>
-            <td><?= h($favMlist->genre) ?></td>
+            <td class="view-data"><?= h($favMlist->genre) ?></td>
         </tr>
         <tr>
             <th scope="row" class="view-col"><?= __('Url') ?></th>
@@ -36,9 +36,9 @@
             <th scope="row" class="view-col"><?= __('Image') ?></th>
             <td><?= h($favMlist->image) ?></td>
         </tr> -->
-        <tr>
+        <!-- <tr>
             <th scope="row" class="view-col"><?= __('Id') ?></th>
-            <td><?= $this->Number->format($favMlist->id) ?></td>
-        </tr>
+            <td class="view-data"><?= $this->Number->format($favMlist->id) ?></td>
+        </tr> -->
     </table>
 </div>

@@ -497,7 +497,7 @@ div.message.hidden {
     }
 }
 
-.content h3 {
+.content h2 {
     color: #be140b;
     padding-bottom: 0.5rem;
     margin-bottom: 20px;
@@ -555,4 +555,12 @@ table td {
 
 .index-data {
     padding-left: 20px;
+}
+
+.view-col {
+    text-transform: uppercase;
+}
+
+.view-data {
+    font-size: medium;
 }
